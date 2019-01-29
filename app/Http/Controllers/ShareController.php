@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Share;
 
 class ShareController extends Controller
 {
@@ -58,6 +59,6 @@ class ShareController extends Controller
         $share = Share::find($id);
         $share->delete();
 
-        return redirect('/shares')->with('success', 'Stock has been delete Successfully');
+        return redirect('/shares')->with('success', 'Stock has been deleted Successfully');
     }
 }

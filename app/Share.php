@@ -10,5 +10,4 @@ class Share extends Model{
         'share_price',
         'share_qty'
     ];
-
 }

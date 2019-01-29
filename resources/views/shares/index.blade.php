@@ -26,7 +26,7 @@
         @foreach($shares as $share)
         <tr>
             <td>{{$share->id}}</td>
-            <td>{{$share->share_name}}</td>
+            <td>{{$share->share_name}}</td>  
             <td>{{$share->share_price}}</td>
             <td>{{$share->share_qty}}</td>
             <td><a href="{{ route('shares.edit',$share->id)}}" class="btn btn-primary">Edit</a></td>
