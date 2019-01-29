@@ -1,11 +1,12 @@
-@extends('layout')
+@extends('layouts.app')
 
 @section('content')
-<style>
+
+{{-- <style>
   .uper {
-    margin-top: 40px;
+    margin-top: 70px;
   }
-</style>
+</style> --}}
 <div class="card uper">
   <div class="card-header">
     Add Share
